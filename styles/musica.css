@@ -1,0 +1,54 @@
+/* se coloca un fondo a la página*/
+body{
+    background-image: url(../images/musica/discos.png);
+    background-size: contain;
+}
+/* Imagen de fondo para la cabecera, y estructura de esta. */
+header{
+    background-color: brown;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 5px;
+}
+/* Estilo de la etiqueta semantica nav */
+nav{
+    height: 70%;
+    background-color:#eeeeee;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1em;
+    width:10%;
+    float:left;
+    padding-bottom: 50%;
+}
+/* Estilo de la etiqueta semantica h3 y article */
+h3, article{
+    background-color: aquamarine;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: justify;
+}
+/* Estilo de la etiqueta semantica video */
+video {
+    max-width: 25%;
+    max-height: 25%;
+}
+/* Estructura del pie de pagina, común al resto.*/
+footer{
+    background-color: aqua;
+    height: 12em;
+    width: auto;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 5em;
+}
+/* Estilo para el boton de inicio */
+button{
+    float: right;
+    height: 4em;
+    width: 13em;
+}

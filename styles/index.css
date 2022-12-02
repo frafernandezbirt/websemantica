@@ -1,0 +1,84 @@
+/* se coloca un fondo a la página*/
+body{
+    background-color: rgb(130, 189, 238);
+}
+/* Imagen de fondo para la cabecera, y estructura de esta. */
+header{ 
+    background-image: url('../images/cabeceras.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+    color: red;
+    display: flex;
+    border-radius: 30%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height:10%;
+    width:100%;
+}
+/* Estructura del area de navegación. */
+nav{
+    background-color: aqua;
+    border-radius: 30%;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    height: 10%;
+    width:100%;
+}
+
+ol{
+    float: left;
+    margin: 15px;
+}
+/* Estructura del contenedor padre, para organizar las tres areas principales. */
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+/* A su vez he dividido en tres partes para poder desarroyar de forma indendiente*/
+.contenedor article:nth-child(1) {
+    background: goldenrod;
+    border-radius: 10px;
+    height: 640px;
+    width:25%;
+    margin: 5px;
+    padding: 10px;
+}
+
+.contenedor article:nth-child(2) {
+    background-image: url( ../images/Foto.png);
+    border-radius: 10px;
+    height: 640px;
+    width:25%;
+    margin: 5px;
+    padding: 10px;
+}
+
+.contenedor article:nth-child(3) {
+    background: grey;
+    border-radius: 10px;
+    height: 640px;
+    width:40%;
+    margin: 5px;
+    padding: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+/* Estructura del pie de pagina, común al resto.*/
+footer{
+    background-color: aqua;
+    height: 150px;
+    width: auto;
+    border-radius: 10px;
+    padding: 10px;
+}

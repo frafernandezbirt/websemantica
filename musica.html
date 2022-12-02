@@ -1,0 +1,93 @@
+<!--
+Autor: Francisco Javier Fernández Rodrigo
+Asignatura: LMGSI
+Unidad: UD 2
+Tarea: Tarea evaluativa 2 - Sitio WEB.
+Fecha: 2 de Diciembre de 2022
+-->
+
+<!-- Declaración del doctype "Tipo de documento" en HTML5-->
+<!DOCTYPE html>
+<!-- Idioma de la página web -->
+<html lang="es">
+
+<head>
+    <!-- codificación de los caracteres de nuestra página -->
+    <meta charset="utf-8">
+    <!-- información para que los buscadores situen o encuentren nuestra web -->
+    <meta name="descripcion" content="Eclecticismo">
+    <meta name="keywords" content="HTML5, CSS3, JavaScript">
+    <!-- Este será el título de nuestra página -->
+    <title>Sitio WEB - Eclecticismo </title>
+    <link rel="stylesheet" href="styles/musica.css" type="text/css">
+</head>
+
+<body>
+    <!--permite insertar una zona de visualización para las cabeceras.-->
+    <header >
+        <h1>MÚSICA</h1>
+        <h2>Para gustos los colores, pero esta es música que tiene un significado para mi, espero disfrutes.</h2>
+    </header>
+  
+        <main>
+            <nav>
+            <p>Indice</p>
+            <a href="#seccion0">La Cafetera</a>
+            <a href="#seccion1">atentos a la letra...</a>
+            </nav>
+        </main>
+        
+        <section id="seccion0">
+            <h3>LA CAFETERA</h3> <!--Obligatorio para que no haya warning.--> 
+            <!--article:permite insertar un contenido autónomo.--> 
+            <article> 
+                <p> La cafetera es un programa de radio, diferente, que se gestiona gracias al mecenazgo,
+                    que es plural y se generan debates sosegados.
+                </p>
+                <p> De este programa me gustaría reseñar, que la música que ponen es libre, autores y grupos
+                    con canciones frescas y que como decia en el titulo, lo especial de descubrilos, no tiene 
+                    precio.</p>
+        
+                <h2>Silver - The Gray Havens</h2>
+                <br>
+		        <!-- Enlace al video de la canción -->
+		        <video control controls muted>
+			    <source src="videos/Silver - The Gray Havens.webm" type="video/webm"> No se puede reproducir.
+		        </video>
+		        <br>
+            </article>
+        </section >
+
+        <section id="seccion1">
+            <h3>METAL - Didactico</h3> <!--Obligatorio para que no haya warning.--> 
+            <!--article:permite insertar un contenido autónomo.--> 
+            <article>
+                <p> Esta canción no tiene igual, sobre todo para los que fuimos a la EGB, la letra me la sé. 
+                    Pero ver en un concierto a la juventud cantarla, tampoco tiene precio. Larga vida al Rock,
+                    que diría Baron Rojo.
+                </p>
+     
+                <h2>Tierra Santa - La Canción del pirata </h2>
+                <audio controls muted>
+                    <source src= "videos/audio.mp3" type="audio/mp3">
+                </audio>
+            </article>
+        </section >
+    <!--Pie de pagina con referencia a los derechos de autor.-->        
+    <footer>
+        <img src="images/CCBY-NC.png" alt="Problema al cargar la foto"  >
+        <p><strong>
+            CC BY-NC
+        </strong></p>
+        <p>    
+            Esta licencia permite que otros remezclen, adapten y desarrollen su trabajo de
+             manera no comercial, y aunque sus nuevos trabajos también deben reconocerlo y
+             no ser comercial, no tienen que licenciar sus trabajos derivados en los mismos
+             términos.
+        </p>
+        <!--Boton que te dirige a la pagina inicial index.-->
+        <button><a href="index.html">Ir a Inicio</a></button>
+    </footer>    
+
+
+</body>

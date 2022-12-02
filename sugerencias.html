@@ -1,0 +1,101 @@
+<!--
+Autor: Francisco Javier Fernández Rodrigo
+Asignatura: LMGSI
+Unidad: UD 2
+Tarea: Tarea evaluativa 2 - Sitio WEB.
+Fecha: 2 de Diciembre de 2022
+-->
+
+<!-- Declaración del doctype "Tipo de documento" en HTML5-->
+<!DOCTYPE html>
+<!-- Idioma de la página web -->
+<html lang="es">
+
+<head>
+    <!-- codificación de los caracteres de nuestra página -->
+    <meta charset="utf-8">
+    <!-- información para que los buscadores situen o encuentren nuestra web -->
+    <meta name="descripcion" content="Eclecticismo">
+    <meta name="keywords" content="HTML5, CSS3, JavaScript">
+    <!-- Este será el título de nuestra página -->
+    <title>Sitio WEB - Eclecticismo </title>
+    <link rel="stylesheet" href="styles/sugerencias.css" type="text/css">
+</head>
+
+<body>
+<!--permite insertar una zona de visualización para las cabeceras.-->
+    <header >
+        <!--en este caso sólo muestra UN título.-->
+    <h1>SUGERENCIAS Y CONTACTO</h1>
+    </header>
+
+    <main id="principal">
+        <section>
+            <article><!--estructura del formulario.con envio de los datos al correo de birt-->
+                <form action="mailto:frafernandez@birt.eus" method="post">
+                    <fieldset>
+                        <legend><h3>Sientete libre para dejar cualquier duda o sugerencia, sera contestada lo antes
+                            posible. recuerda que estoy solo y no me dedico en exclusiba, por lo que pido 
+                            paciencia. Eso si, me compormeto a contestar:</h3></legend>
+                            <label for="fnamenom1">Nombre:</label><br>
+                            <input type="text" id="fnamenom1" name="nombre1" value="nombre"><br>
+                            <label for="femail">Correo:</label><br>
+                            <input type="text" id="femail" name="correo" value="correo"><br>
+                            
+                        <!--selección de temas propuestos-->
+                        <label for="temas">Elige un tema:</label><br>
+                        <select id="temas" name="temas">
+                            <option value="impresión-3d">Impresión 3D</option>
+                            <option value="electrónica">Electrónica</option>
+                            <option value="música">Música</option>
+                            <option value="libros">Libros</option>
+                            <option value="otro-tema">Claro que puede ser otro tema...</option>
+                        </select><br>
+                        <!--Espacio de texto para enviar sugerencia-->
+                        <label for="sugerencia">Como Titular :</label><br>
+                        <input type="text" id="sugerencia" name="sugerencia" value="¿Qué pondrías?"><br> 
+                        <textarea name="idea" rows="15" cols="100">Escribe aquí tu comentario, idea o sugerencias...
+                        </textarea><br>
+                         <!--Botones de enviar y restablecer los valores predeterminados.-->
+                        <input type="submit" value="Enviar">
+                        <input type="reset" name="limpiar" value="Cuidadin que borras los datos del formulario" />
+                    </fieldset>
+                </form>
+            </article>
+        </section>
+             <!--Asaid con los iconos open source para diferetes redes sociales-->
+        <aside id="contenedor-iconos">
+            
+            <p class="titulo-iconos">No soy prolífico, pero...</p>
+            <div class="contenedor-icono"><a href="https://twitter.com/?lang=es" target="_blank">
+                <img class="icono" src="iconos/twitter.svg" alt="icono1" ></a>
+                <h4>Twitter</h4>
+            </div>
+            <div class="contenedor-icono"><a href="https://www.youtube.com/twitter" target="_blank">
+                <img class="icono" src="iconos/youtube.svg" alt="icono2" ></a>
+                <h4>Youtube</h4>
+            </div>
+            <div class="contenedor-icono"><a href="https://www.instagram.com" target="_blank">
+                <img class="icono" src="iconos/camera.svg" alt="icono3" ></a>
+                <h4>Instagram</h4>
+            </div>
+            
+        </aside>
+    </main>
+     <!--Pie de pagina con referencia a los derechos de autor.-->
+    <footer>
+        <img src="./images/CCBY-NC.png" alt="Problema al cargar la foto">
+        <p><strong>
+            CC BY-NC
+        </strong></p>
+        <p>    
+            Esta licencia permite que otros remezclen, adapten y desarrollen su trabajo de
+            manera no comercial, y aunque sus nuevos trabajos también deben reconocerlo y
+            no ser comercial, no tienen que licenciar sus trabajos derivados en los mismos
+            términos.
+        </p>
+        <!--Boton que te dirige a la pagina inicial index.-->
+        <button><a href="index.html">Ir a Inicio</a></button>
+    </footer>   
+
+</body>

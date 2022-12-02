@@ -1,0 +1,70 @@
+/* Estilo de la etiquet semantica body */
+body{
+    background-color: rgb(130, 189, 238);
+}
+/* Estilo de la etiquet semantica header */
+header{ 
+    background-image: url('../images/cabeceras.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+    color: red;
+    display: flex;
+    border-radius: 30%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height:10%;
+    width:100%;
+}
+
+h2{
+    text-align: center;
+}
+
+/* Estilo de la etiqueta semantica aside */
+aside {
+	background-color: green;
+	color: yellow;
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 150%;
+	margin: 5px;
+}
+
+/* Estilos del contenedor section. Se utiliza un id porque solo se va aplicar a este elemento */
+#principal {
+	display: flex;
+	flex-direction: row;
+}
+
+/* Estilos del contenedor aside para los iconos */
+#contenedor-iconos {
+	flex-basis: 25%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:space-evenly;
+	text-align: center;
+}
+
+.contenedor-icono {
+	width: 100%;
+}
+
+/* Estilo de la etiquet semantica footer */
+footer{
+    background-color: aqua;
+    height: 12em;
+    width: auto;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+}
+/* Estilo para el boton de inicio */
+button{
+    float: right;
+    height: 4em;
+    width: 13em;
+}

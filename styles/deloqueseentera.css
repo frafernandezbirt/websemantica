@@ -1,0 +1,42 @@
+/* se coloca un fondo a la página*/
+body{
+    background-color: rgb(130, 189, 238);
+}
+/* Imagen de fondo para la cabecera, y estructura de esta. */
+header{ 
+    background-image: url('../images/cabeceras.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: whitesmoke;
+    color: red;
+    display: flex;
+    border-radius: 35em;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height:10%;
+    width:100%;
+}
+
+
+iframe{
+    width: 100%;
+    height: 33%;
+    overflow: scroll;
+}
+
+/* Estructura del pie de pagina, común al resto.*/
+footer{
+    background-color: aqua;
+    height: 12em;
+    width: auto;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+}
+/* Estilo para el boton de inicio */
+button{
+    float: right;
+    height: 4em;
+    width: 13em;
+}
